@@ -21,7 +21,7 @@ namespace StudentPairingApp
                 Console.Write("Please type a student's name to add them to the list: ");
                 student = Console.ReadLine();
                 students.Add(student);
-                Console.WriteLine($"{student} has been added to the list\n\nWould you like to add another student?  Y/N");
+                Console.WriteLine($"{student} has been added to the list.\n\nWould you like to add another student?  Y/N");
 
                 ConsoleKey choice = Console.ReadKey().Key;
                 bool exit2 = false;
